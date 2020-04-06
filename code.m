@@ -27,12 +27,12 @@ z1=m*z;
 z2=z1/k;
 
 end
-
-function [z1, z2, m, th2] = myfun2(z,th1,k)
-
-th2=atand(2*cotd(2*th1));
-m=cotd(th1);
-z1=m*z;
-z2=z1/k;
-
-end
+% 
+% function [z1, z2, m, th2] = myfun2(z,th1,k)
+% 
+% th2=atand(2*cotd(2*th1));
+% m=cotd(th1);
+% z1=m*z;
+% z2=z1/k;
+% 
+% end
