@@ -4,6 +4,7 @@ tmp = load('bidmc_data.mat');
 data = tmp.data;
 N = 60000;
 fs = 125;
+
 time = (0:N-1)/fs;
 for n = 1:length(data)
     ecg(:,n) = data(n).ekg.v(1:N)';
