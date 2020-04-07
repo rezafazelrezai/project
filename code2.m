@@ -10,7 +10,10 @@ for n = 1:length(data)
     ppg(:,n) = data(n).ppg.v(1:N)';
     tmp = data(n).ref.params.hr.v(1:480);
     tmp2 = repmat(tmp,1,fs);
-    hr(:,n) = reshape(tmp2',1,N)';
+    hr(:,n) = reshape(tmp2',1,N
+    
+    
+    
 end
 
 
